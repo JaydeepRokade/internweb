@@ -13,7 +13,7 @@ mongoose
   .then(() => console.log('Connected to MongoDB'))
   .catch((error) => console.error('Error connecting to MongoDB:', error));
 
-// Define Mongoose Schema and Model for Profiles
+// Define Mongoose Schema and Model for Pro
 const profileSchema = new mongoose.Schema({
   name: String,
   photoUrl: String,
