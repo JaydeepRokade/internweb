@@ -4,8 +4,7 @@ const { ApolloServer, gql } = require('apollo-server-express');
 const mongoose = require('mongoose');
 require('dotenv').config(); // To load environment variables
 
-// Connect to MongoDB of of Toronto for ov
-mongoose
+// Connect to MongoD
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
